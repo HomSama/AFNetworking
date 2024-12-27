@@ -53,4 +53,10 @@ Pod::Spec.new do |s|
 
     ss.source_files = 'UIKit+AFNetworking'
   end
+  
+  s.subspec 'Resources' do |ss|
+    ss.ios.deployment_target = '9.0'
+    ss.tvos.deployment_target = '9.0'
+    ss.source_files = 'FNetworking/Resources/PrivacyInfo.xcprivacy'
+  end
 end
