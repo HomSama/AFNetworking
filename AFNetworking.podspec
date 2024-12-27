@@ -81,4 +81,5 @@ EOS
     ss.ios.deployment_target = '7.0'
     ss.tvos.deployment_target = '9.0'
     ss.source_files = 'AFNetworking/Resources/PrivacyInfo.xcprivacy'
+  end
 end
