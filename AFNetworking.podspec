@@ -80,6 +80,6 @@ EOS
     s.subspec 'Resources' do |ss|
     ss.ios.deployment_target = '7.0'
     ss.tvos.deployment_target = '9.0'
-    ss.source_files = 'AFNetworking/Resources/PrivacyInfo.xcprivacy'
+    ss.source_files = 'AFNetworking/PrivacyInfo.xcprivacy'
   end
 end
