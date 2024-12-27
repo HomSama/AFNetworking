@@ -57,6 +57,6 @@ Pod::Spec.new do |s|
   s.subspec 'Resources' do |ss|
     ss.ios.deployment_target = '9.0'
     ss.tvos.deployment_target = '9.0'
-    ss.source_files = 'FNetworking/Resources/PrivacyInfo.xcprivacy'
+    ss.source_files = 'AFNetworking/Resources/PrivacyInfo.xcprivacy'
   end
 end
